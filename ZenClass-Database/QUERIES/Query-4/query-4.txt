@@ -1,0 +1,10 @@
+4. Find the number of problems solved by the user in codekata:-
+
+db.codekata.aggregate([
+  {
+    $group: {
+      _id: "$user_id",
+      total_problems_solved: { $sum: "$problems_solved" }
+    }
+  }
+]);

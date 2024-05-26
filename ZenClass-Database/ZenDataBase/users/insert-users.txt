@@ -1,0 +1,39 @@
+db.users.insertMany(
+[
+  {
+    "name": "Rajarajacholan",
+    "email": "john.doe@example.com",
+    "age": 25,
+    "gender": "Male",
+    "appeared_placement": true
+  },
+  {
+    "name": "Terasa",
+    "email": "jane.smith@example.com",
+    "age": 30,
+    "gender": "Female",
+    "appeared_placement": true
+  },
+  {
+    "name": "Kamarajar",
+    "email": "bob.johnson@example.com",
+    "age": 28,
+    "gender": "Male",
+    "appeared_placement": false
+  },
+  {
+    "name": "vaelunachiyar",
+    "email": "alice.lee@example.com",
+    "age": 27,
+    "gender": "Female",
+    "appeared_placement": false
+  },
+  {
+    "name": "Barathiyar",
+    "email": "chris.brown@example.com",
+    "age": 35,
+    "gender": "Male",
+    "appeared_placement": true
+  }
+]
+);

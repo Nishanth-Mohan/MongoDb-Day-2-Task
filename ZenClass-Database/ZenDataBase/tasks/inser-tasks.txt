@@ -1,0 +1,34 @@
+db.tasks.insertMany(
+[
+  {
+    "user_id": ObjectId("66515c09f57b5dd1288098a7"),
+    "task_name": "Assignment 1",
+    "date": ISODate("2020-10-25T00:00:00Z"),
+    "submitted": true
+  },
+  {
+    "user_id": ObjectId("66515c09f57b5dd1288098a8"),
+    "task_name": "Assignment 2",
+    "date": ISODate("2020-10-30T00:00:00Z"),
+    "submitted": true
+  },
+  {
+    "user_id": ObjectId("66515c09f57b5dd1288098a9"),
+    "task_name": "Assignment 3",
+    "date": ISODate("2020-10-15T00:00:00Z"),
+    "submitted": false
+  },
+  {
+    "user_id": ObjectId("66515c09f57b5dd1288098aa"),
+    "task_name": "Assignment 4",
+    "date": ISODate("2020-10-20T00:00:00Z"),
+    "submitted": false
+  },
+  {
+    "user_id": ObjectId("66515c09f57b5dd1288098ab"),
+    "task_name": "Assignment 5",
+    "date": ISODate("2020-10-10T00:00:00Z"),
+    "submitted": true
+  }
+]
+);

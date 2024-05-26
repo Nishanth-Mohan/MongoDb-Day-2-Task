@@ -1,0 +1,7 @@
+db.createCollection("users");
+db.createCollection("codekata");
+db.createCollection("attendance");
+db.createCollection("topics");
+db.createCollection("tasks");
+db.createCollection("company_drives");
+db.createCollection("mentors");

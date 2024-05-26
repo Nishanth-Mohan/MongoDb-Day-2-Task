@@ -1,0 +1,22 @@
+db.mentors.insertMany([
+  {
+   "mentor_name": "thiruvaluvar",
+   "mentee_count": 100,
+  },
+  {
+   "mentor_name": "ovvaiyaar",
+   "mentee_count": 90,
+  },
+  {
+   "mentor_name": "Maanikavaasagar",
+   "mentee_count": 80,
+  },
+ {
+   "mentor_name": "Thirunayana sammanthar",
+   "mentee_count": 90,
+  },
+ {
+   "mentor_name": "Kambar",
+   "mentee_count": 14,
+  }
+]);

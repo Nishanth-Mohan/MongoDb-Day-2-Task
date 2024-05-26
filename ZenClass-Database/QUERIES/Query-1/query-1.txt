@@ -1,0 +1,13 @@
+// Find all the topics and tasks which are thought in the month of October:-
+
+db.topics.find({
+date:{
+$gte: ISODate("2020-10-01"), $lt: ISODate("2020-11-01")
+}
+});
+
+db.topics.find({
+date:{
+$gte: ISODate("2020-10-01"), $lt: ISODate("2020-11-01")
+}
+});

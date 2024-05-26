@@ -1,0 +1,9 @@
+3. Find all the company drives and students who are appeared for the placement:-
+
+db.company_drives.find({
+appeared: true
+});
+
+db.users.find({
+appeared_placement: true
+});

@@ -1,0 +1,29 @@
+db.company_drives.insertMany(
+[
+  {
+    "company_name": "ABC Inc",
+    "date": ISODate("2020-10-15T00:00:00Z"),
+    "appeared": true
+  },
+  {
+    "company_name": "XYZ Corp",
+    "date": ISODate("2020-10-20T00:00:00Z"),
+    "appeared": true
+  },
+  {
+    "company_name": "PQR Ltd",
+    "date": ISODate("2020-10-25T00:00:00Z"),
+    "appeared": false
+  },
+  {
+    "company_name": "EFG Corp",
+    "date": ISODate("2020-10-30T00:00:00Z"),
+    "appeared": true
+  },
+  {
+    "company_name": "MNO Inc",
+    "date": ISODate("2020-10-10T00:00:00Z"),
+    "appeared": false
+  }
+]
+);

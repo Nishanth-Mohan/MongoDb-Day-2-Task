@@ -1,0 +1,24 @@
+db.codekata.insertMany(
+[
+  {
+    "user_id": ObjectId("66515c09f57b5dd1288098a7"),
+    "problems_solved": 20
+  },
+  {
+    "user_id": ObjectId("66515c09f57b5dd1288098a8"),
+    "problems_solved": 15
+  },
+  {
+    "user_id": ObjectId("66515c09f57b5dd1288098a9"),
+    "problems_solved": 25
+  },
+  {
+    "user_id": ObjectId("66515c09f57b5dd1288098aa"),
+    "problems_solved": 18
+  },
+  {
+    "user_id": ObjectId("66515c09f57b5dd1288098ab"),
+    "problems_solved": 22
+  }
+]
+);

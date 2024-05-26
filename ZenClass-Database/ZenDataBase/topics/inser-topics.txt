@@ -1,0 +1,24 @@
+db.topics.insertMany(
+[
+  {
+    "name": "MongoDB Basics",
+    "date": ISODate("2020-09-06T00:00:00Z")
+  },
+  {
+    "name": "Node.js Introduction",
+    "date": ISODate("2020-10-25T00:00:00Z")
+  },
+  {
+    "name": "React Fundamentals",
+    "date": ISODate("2020-10-30T00:00:00Z")
+  },
+  {
+    "name": "Python Basics",
+    "date": ISODate("2020-10-05T00:00:00Z")
+  },
+  {
+    "name": "JavaScript Essentials",
+    "date": ISODate("2020-10-15T00:00:00Z")
+  }
+]
+);

@@ -1,0 +1,29 @@
+db.attendance.insertMany(
+[
+  {
+    "user_id": ObjectId("66515c09f57b5dd1288098a7"),
+    "date": ISODate("2020-09-06T00:00:00Z"),
+    "absent": false
+  },
+  {
+    "user_id": ObjectId("66515c09f57b5dd1288098a8"),
+    "date": ISODate("2020-10-16T00:00:00Z"),
+    "absent": true
+  },
+  {
+    "user_id": ObjectId("66515c09f57b5dd1288098a9"),
+    "date": ISODate("2020-10-18T00:00:00Z"),
+    "absent": false
+  },
+  {
+    "user_id": ObjectId("66515c09f57b5dd1288098aa"),
+    "date": ISODate("2020-11-16T00:00:00Z"),
+    "absent": true
+  },
+  {
+    "user_id": ObjectId("66515c09f57b5dd1288098ab"),
+    "date": ISODate("2020-10-22T00:00:00Z"),
+    "absent": false
+  }
+]
+);
