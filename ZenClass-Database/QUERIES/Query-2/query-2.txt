@@ -2,7 +2,8 @@
 
 
 db.company_drives.find({
-date:{
-    $gte:ISODate("2020-10-15"),$lte:ISODate("2020-10-31")
-}
+ $and:[ 
+    {date:{$gte:ISODate("2020-10-15"),$lte:ISODate("2020-10-31")}},
+    {appeared: true}
+]
 });

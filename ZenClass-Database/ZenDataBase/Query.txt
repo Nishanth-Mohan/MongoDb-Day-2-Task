@@ -5,21 +5,21 @@ date:{
 $gte: ISODate("2020-10-01"), $lt: ISODate("2020-11-01")
 }
 });
-
-db.topics.find({
+-------------------------------------------------------
+db.tasks.find({
 date:{
 $gte: ISODate("2020-10-01"), $lt: ISODate("2020-11-01")
 }
 });
 
 
-
 2. Find all the company drives which appeared between 15 oct-2020 and 31-oct-2020:-
 
 db.company_drives.find({
-date:{
-    $gte:ISODate("2020-10-15"),$lte:ISODate("2020-10-31")
-}
+ $and:[ 
+    {date:{$gte:ISODate("2020-10-15"),$lte:ISODate("2020-10-31")}},
+    {appeared: true}
+]
 });
 
 3. Find all the company drives and students who are appeared for the placement:-
@@ -28,6 +28,7 @@ db.company_drives.find({
 appeared: true
 });
 
+------------------------------------------------------------------------------
 db.users.find({
 appeared_placement: true
 });
